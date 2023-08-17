@@ -1,10 +1,12 @@
 # Intel oneAPI Optimized Code Examples Repository
+
 Welcome to the Intel oneAPI Optimized Code Examples Repository! This repository contains optimized code examples that utilize various libraries from Intel's oneAPI toolkit. The three code files included in this repository demonstrate the usage of the following libraries:
 oneDAL (oneAPI Data Analytics Library) - oneDAL.ipynb
 oneDNN (oneAPI Deep Neural Network Library) - oneDNN.ipynb
 XGBoost with oneAPI - XGB.ipynb
 
 ## About the Libraries
+
 1. oneDAL (oneAPI Data Analytics Library)
 The oneDAL.ipynb code file showcases the capabilities of the oneDAL library, which provides efficient data analysis and machine learning algorithms for a variety of use cases. Whether you're working on data preprocessing, linear algebra, statistical analysis, or machine learning tasks, oneDAL has you covered.
 
@@ -30,12 +32,15 @@ Additional Resources
 For more information about the libraries and tools used in these examples, refer to the following documents:
 
 Basic Documentation : https://docs.google.com/document/d/1K2NqLp_gdx066d_GrPF3Th7zOlQCeAQQcgefCYYQu3U/edit?usp=sharing
-Intel Developer Cloud (IDC) Account
+
+## Intel Developer Cloud (IDC) Account
+
 To gain access to a wealth of resources, discussions, and support related to Intel's oneAPI toolkit, you can create an Intel Developer Zone (IDZ) account using the attached documents:
 
 Creating an IDC Account Guide: https://www.youtube.com/watch?v=PhzlMQ8-GE4&t=696s
 
 ## Contributions
+
 We welcome contributions to this repository! If you've developed additional optimized code examples using Intel oneAPI libraries or want to improve existing code, feel free to submit pull requests.
 
 Happy coding and optimizing with Intel's oneAPI toolkit! If you have any questions or need assistance, please don't hesitate to reach out.
