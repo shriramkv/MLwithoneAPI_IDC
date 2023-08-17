@@ -1,46 +1,48 @@
-# Intel oneAPI Optimized Code Examples Repository
+# Fetal Health Prediction using oneDAL Classification Algorithms
+# This project is a machine learning application that predicts the health status of a fetus using three different classification algorithms: logistic regression, SVM, and KNN. The project uses the oneDAL library from Intel to implement the classification algorithms.
+![shutterstock_133423673](https://user-images.githubusercontent.com/111365771/221896792-e607c68e-df17-424b-b373-810a087dd9e5.jpg)
 
-Welcome to the Intel oneAPI Optimized Code Examples Repository! This repository contains optimized code examples that utilize various libraries from Intel's oneAPI toolkit. The three code files included in this repository demonstrate the usage of the following libraries:
-oneDAL (oneAPI Data Analytics Library) - oneDAL.ipynb
-oneDNN (oneAPI Deep Neural Network Library) - oneDNN.ipynb
-XGBoost with oneAPI - XGB.ipynb
+# Dataset
+The dataset used for this project is the Fetal Health Classification Dataset from Kaggle. The dataset contains 21 features and a binary target variable indicating whether the fetal health is normal or not. The dataset is split into training and testing sets using a 70-30 split.
 
-## About the Libraries
+# Classification Algorithms
+The three classification algorithms used in this project are:
+## Logistic Regression
+![download (1)](https://user-images.githubusercontent.com/111365771/221899799-1c8ab492-23ac-411a-bfea-af531ecf6045.png)
 
-1. oneDAL (oneAPI Data Analytics Library)
-The oneDAL.ipynb code file showcases the capabilities of the oneDAL library, which provides efficient data analysis and machine learning algorithms for a variety of use cases. Whether you're working on data preprocessing, linear algebra, statistical analysis, or machine learning tasks, oneDAL has you covered.
+A linear classification algorithm that models the probability of the target variable using a logistic function. The model is trained by minimizing the cross-entropy loss between the predicted probabilities and the true labels.
+## Support Vector Machine
 
-2. oneDNN (oneAPI Deep Neural Network Library)
-In the oneDNN.ipynb code file, you'll find examples that leverage the oneDNN library, designed to accelerate deep learning workloads. This library offers optimized primitives for convolutional neural networks (CNNs), recurrent neural networks (RNNs), and other deep learning models, enhancing both training and inference performance.
+![download (2)](https://user-images.githubusercontent.com/111365771/221900192-a698d3f8-c17a-4039-b9f8-caa8fce94c26.png)
 
-3. XGBoost with oneAPI
-The XGB.ipynb code file demonstrates how to integrate the XGBoost library with oneAPI, leveraging the power of oneAPI's hardware acceleration. XGBoost is a popular machine learning library for gradient boosting on decision trees, and when combined with oneAPI's optimizations, it becomes even more efficient and powerful.
+A non-linear classification algorithm that finds the best hyperplane to separate the data into different classes. The hyperplane is chosen to maximize the margin between the classes. The model is trained by solving a convex optimization problem.
+## K-Nearest Neighbour
+![0_ItVKiyx2F3ZU8zV5](https://user-images.githubusercontent.com/111365771/221900664-25f10184-a0a5-4580-ac58-b567d164228d.png)
 
-## Getting Started
+A non-parametric classification algorithm that predicts the class of a new data point based on the classes of its K nearest neighbors in the training data. The model is trained by storing the training data and computing the distances between data points.
 
-To access and utilize the code examples provided in this repository, follow these steps:
+# Installation
 
-Clone the repository to your local machine using the following command:
+To run this project, you will need to have Python 3 and the following packages installed:
 
+->pandas
 
-git clone https://github.com/your-username/your-repo-name.git
-Explore the individual code files (oneDAL.ipynb, oneDNN.ipynb, and XGB.ipynb) to understand how each library is used and optimized.
+->numpy
 
-Refer to the attached documents for detailed documentation on each library and instructions for creating an Intel Developer cloud (IDC) account to access additional resources.
+->scikit-learn
 
-Additional Resources
-For more information about the libraries and tools used in these examples, refer to the following documents:
+->oneDAL
 
-Basic Documentation : https://docs.google.com/document/d/1K2NqLp_gdx066d_GrPF3Th7zOlQCeAQQcgefCYYQu3U/edit?usp=sharing
+# Intel DevMesh
+This project was implemented using the oneDAL library from Intel DevMesh. oneDAL is an open-source library that provides optimized implementations of common machine learning algorithms for CPUs and GPUs. The library is written in C++ and provides Python bindings for easy integration into Python-based machine learning applications.
 
-## Intel Developer Cloud (IDC) Account
+# Results
 
-To gain access to a wealth of resources, discussions, and support related to Intel's oneAPI toolkit, you can create an Intel Developer Zone (IDZ) account using the attached documents:
+The performance of the three classification algorithms on the testing data is as follows:
 
-Creating an IDC Account Guide: https://www.youtube.com/watch?v=PhzlMQ8-GE4&t=696s
+->Logistic Regression: 90.14% accuracy
 
-## Contributions
+->SVM: 80.75% accuracy
 
-We welcome contributions to this repository! If you've developed additional optimized code examples using Intel oneAPI libraries or want to improve existing code, feel free to submit pull requests.
-
-Happy coding and optimizing with Intel's oneAPI toolkit! If you have any questions or need assistance, please don't hesitate to reach out.
+->KNN: 77.94% accuracy
+As we can see, logistic regression performs the best, with an accuracy of over 90%, while SVM and KNN perform worse, with accuracies of around 80% and 77%, respectively.
