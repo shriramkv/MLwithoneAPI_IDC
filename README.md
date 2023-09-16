@@ -196,14 +196,34 @@ Once users are in the JupyterLab with downloaded jupyter notebook samples, they 
 
 
 </details>
+
 ## 3. XGBoost with oneAPI  <img src="https://github.com/shriramkv/MLwithoneAPI_IDC/assets/72274851/3c93722d-d90f-43f2-a03a-a04226e45e36" height="60" width="60"><br>
 
 The XGB.ipynb code file demonstrates how to integrate the XGBoost library with oneAPI, leveraging the power of oneAPI's hardware acceleration. XGBoost is a popular machine-learning library for gradient boosting on decision trees, and when combined with oneAPI's optimizations, it becomes even more efficient and powerful.
 
 <details>
   <summary><h2>More about it</h2><img src="https://github.com/shriramkv/MLwithoneAPI_IDC/assets/72274851/6120f1fb-dfec-473a-a067-23d2481066c2" height="60" width="60"></summary>
+  
+<img src=https://github.com/shriramkv/MLwithoneAPI_IDC/assets/72274851/7994fa5b-8e19-4f9b-960b-e572929fbad0>
+
+<img src=https://github.com/shriramkv/MLwithoneAPI_IDC/assets/72274851/ecadf547-de84-4109-bd81-573115864918>
+
+<br>**Key Takeaways**
+- Intel optimizations available in XGBoost 1.4.3 offers prediction time speed-up ranging between 2.14x and 2.22x  compared to stock XGBoost 0.81 with XGBoost model trained with tuned hyperparameters on this dataset
+- Intel optimizations available in daal4py offers additional  prediction time speed-up, overall ranging between 2.94x to 3.75x compared to stock XGBoost 0.81 with XGBoost model trained with tuned hyperparameters on this dataset
+
+> No accuracy drop observed with the daal4py prediction
+
+#### :pencil: Projects of XGBoost with oneAPI
+
+| Algorithm               | Notebook       |
+| :----------------------:| :------------: | 
+|    CROP PREDICTION  |  [View source on GitHub](https://github.com/JoelJJoseph/CROP_PREDICTION_oneAPI)    | 
+|    Fake Currency Detection        |   [View source on GitHub](https://github.com/JoelJJoseph/Fake-Currency-Detection-using-AI-ML) | 
+
 
 </details>
+
 # Getting Started
 
 ## To access and utilize the code examples provided in this repository, follow these steps:
