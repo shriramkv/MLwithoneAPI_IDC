@@ -167,7 +167,7 @@ jupyter notebook --notebook-dir=./ --ip=* --no-browser
 In the oneDNN.ipynb code file, you'll find examples that leverage the oneDNN library, designed to accelerate deep learning workloads. This library offers optimized primitives for convolutional neural networks (CNNs), recurrent neural networks (RNNs), and other deep learning models, enhancing both training and inference performance.
 
 <details>
-  <summary><h2>More about it</h2><img src="https://github.com/shriramkv/MLwithoneAPI_IDC/assets/72274851/6120f1fb-dfec-473a-a067-23d2481066c2" height="60" width="60"></summary>
+  <summary><h2>More about it</h2><img src="https://github.com/shriramkv/MLwithoneAPI_IDC/assets/72274851/1d92dfb7-f211-414e-af52-16a16452d53f" height="60" width="60"></summary>
 
 <img src="https://www.intel.com/content/dam/www/central-libraries/us/en/images/2022-07/onednn-stack-diagram-07jul22-rwd.png.rendition.intel.web.864.486.png">
 
@@ -202,8 +202,8 @@ Once users are in the JupyterLab with downloaded jupyter notebook samples, they 
 The XGB.ipynb code file demonstrates how to integrate the XGBoost library with oneAPI, leveraging the power of oneAPI's hardware acceleration. XGBoost is a popular machine-learning library for gradient boosting on decision trees, and when combined with oneAPI's optimizations, it becomes even more efficient and powerful.
 
 <details>
-  <summary><h2>More about it</h2><img src="https://github.com/shriramkv/MLwithoneAPI_IDC/assets/72274851/6120f1fb-dfec-473a-a067-23d2481066c2" height="60" width="60"></summary>
-  
+  <summary><h2>More about it</h2><img src="https://github.com/shriramkv/MLwithoneAPI_IDC/assets/72274851/85c55368-7fed-4167-9321-03bc34cc506e" height="60" width="60"></summary>
+
 <img src=https://github.com/shriramkv/MLwithoneAPI_IDC/assets/72274851/7994fa5b-8e19-4f9b-960b-e572929fbad0>
 
 <img src=https://github.com/shriramkv/MLwithoneAPI_IDC/assets/72274851/ecadf547-de84-4109-bd81-573115864918>
