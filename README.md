@@ -113,20 +113,97 @@ This will get the batch node activated! You will see this clearly in the powersh
 ## 1. oneDAL (oneAPI Data Analytics Library) <img src="https://github.com/shriramkv/MLwithoneAPI_IDC/assets/72274851/bbaa57c5-ae31-4a84-a988-8482b85b5efe" height="60" width="60"><br>
 
 The oneDAL.ipynb code file showcases the capabilities of the oneDAL library, which provides efficient data analysis and machine learning algorithms for a variety of use cases. Whether you're working on data preprocessing, linear algebra, statistical analysis, or machine learning tasks, oneDAL has you covered.
+<details>
+  <summary><h2>More about it</h2><img src="https://github.com/shriramkv/MLwithoneAPI_IDC/assets/72274851/6120f1fb-dfec-473a-a067-23d2481066c2" height="60" width="60"></summary>
+
+  #### :rocket: Jupyter startup guide
+You can use python notebooks with the help of Jupyter* notebook to run the following files:
+
+```bash
+conda install -c conda-forge notebook scikit-learn-intelex
+```  
+or  
+```bash
+pip install notebook scikit-learn-intelex
+```  
+Run Jupyter after installation:
+```bash
+jupyter notebook --notebook-dir=./ --ip=* --no-browser
+```  
+
+#### :pencil: Examples of oneDAL
+
+
+| Algorithm               | Workload       | Task            | Notebook       | Scikit-learn estimator|
+| :----------------------:| :------------: | :---------------:| :------------: | :-------------------:|
+|    LogisticRegression  |    CIFAR-100    |    Сlassification    | [View source on GitHub](https://github.com/intel/scikit-learn-intelex/blob/master/examples/notebooks/logistictic_regression_cifar.ipynb)    | [sklearn.linear_model.LogisticRegression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) |
+|          SVC           |     Adult       |    Сlassification    | [View source on GitHub](https://github.com/intel/scikit-learn-intelex/blob/master/examples/notebooks/svc_adult.ipynb) | [sklearn.svm.SVC](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html) |
+| KNeighborsClassifier   |       MNIST     |    Сlassification    | [View source on GitHub](https://github.com/intel/scikit-learn-intelex/blob/master/examples/notebooks/knn_mnist.ipynb) |    [sklearn.neighbors.KNeighborsClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html) |
+|        NuSVR           | Medical charges |    Regression    | [View source on GitHub](https://github.com/intel/scikit-learn-intelex/blob/master/examples/notebooks/nusvr_medical_charges.ipynb) | [sklearn.svm.NuSVR](https://scikit-learn.org/stable/modules/generated/sklearn.svm.NuSVR.html) |
+| RandomForestRegressor  |     Yolanda     |    Regression    | [View source on GitHub](https://github.com/intel/scikit-learn-intelex/blob/master/examples/notebooks/random_forest_yolanda.ipynb) | [sklearn.ensemble.RandomForestRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html) |
+|        Ridge           | Airlines DepDelay |    Regression    | [View source on GitHub](https://github.com/intel/scikit-learn-intelex/blob/master/examples/notebooks/ridge_regression.ipynb) | [sklearn.linear_model.Ridge](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.html) |
+| ElasticNet  |    Airlines DepDelay     |    Regression    | [View source on GitHub](https://github.com/intel/scikit-learn-intelex/blob/master/examples/notebooks/ElasticNet.ipynb) | [sklearn.linear_model.ElasticNet](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.ElasticNet.html) |
+|        Lasso           | YearPredictionMSD |    Regression    | [View source on GitHub](https://github.com/intel/scikit-learn-intelex/blob/master/examples/notebooks/lasso_regression.ipynb) | [sklearn.linear_model.Lasso](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Lasso.html) |
+| Linear Regression  |    YearPredictionMSD     |    Regression    | [View source on GitHub](https://github.com/intel/scikit-learn-intelex/blob/master/examples/notebooks/linear_regression.ipynb) | [sklearn.linear_model.LinearRegression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html) |
+|        KMeans           | Spoken arabic digit |    Clustering    | [View source on GitHub](https://github.com/intel/scikit-learn-intelex/blob/master/examples/notebooks/kmeans.ipynb) | [sklearn.cluster.KMeans](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html) |
+| DBSCAN  |     Spoken arabic digit     |    Clustering    | [View source on GitHub](https://github.com/intel/scikit-learn-intelex/blob/master/examples/notebooks/dbscan.ipynb) | [sklearn.cluster.DBSCAN](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.DBSCAN.html) |
+
+![graph](https://github.com/shriramkv/MLwithoneAPI_IDC/assets/72274851/5d292ebb-ec6a-4870-88f5-b7ec993bcb59)
+
+#### :pencil: Projects of oneDAL
+
+| Algorithm               | Notebook       |
+| :----------------------:| :------------: | 
+|    Crop Prediction  |  [View source on GitHub](https://github.com/JoelJJoseph/CROP_PREDICTION_oneAPI)    | 
+|    Heart Attack          |   [View source on GitHub](https://github.com/AkshayRamakrishnann/heartattack) | 
+
+
+</details>
 
 
 
 ## 2. oneDNN (oneAPI Deep Neural Network Library) <img src="https://github.com/shriramkv/MLwithoneAPI_IDC/assets/72274851/6395c82a-a490-4a2b-916e-77945c8142de" height="60" width="60"><br>
 
-
-
 In the oneDNN.ipynb code file, you'll find examples that leverage the oneDNN library, designed to accelerate deep learning workloads. This library offers optimized primitives for convolutional neural networks (CNNs), recurrent neural networks (RNNs), and other deep learning models, enhancing both training and inference performance.
 
+<details>
+  <summary><h2>More about it</h2><img src="https://github.com/shriramkv/MLwithoneAPI_IDC/assets/72274851/6120f1fb-dfec-473a-a067-23d2481066c2" height="60" width="60"></summary>
+
+<img src="https://www.intel.com/content/dam/www/central-libraries/us/en/images/2022-07/onednn-stack-diagram-07jul22-rwd.png.rendition.intel.web.864.486.png">
+
+# oneDNN Tutorials
+
+| Type      | Name                 | Description                                                  |
+| --------- | ----------------------- | ------------------------------------------------------------ |
+| Component | [getting_started](tutorial_getting_started.ipynb)  | The sample also includes a Jupyter notebook with step by step instructions on building code with different compilers and runtime configurations oneDNN support. |
+| Component | [verbose_jitdump](tutorial_verbose_jitdump.ipynb) | This Jupyter Notebook demonstrates how to use Verbose Mode and JIT Dump to profile oneDNN samples. |
+| Component | [analyze_isa_with_dispatcher_control](tutorial_analyze_isa_with_dispatcher_control.ipynb) | This Jupyter Notebook demonstrates how to use CPU Dispatch Control to generate JIT codes among different ISA on CPU and also analyze JIT kernels among ISAs.|
+| Component | [Intel® VTune™ Profiler](tutorial_vtune_profiling.ipynb) | This Jupyter Notebook demonstrates how to use VTune™ Profiler to profile oneDNN samples and find out performance bottlenecks. |
+| Component | [benchdnn_tutorial](benchdnn_tutorial.ipynb) | This Jupyter Notebook demonstrates how to use the benchDNN tool to validate and test oneDNN primitive executions |
+>  Notice : Please use Intel® oneAPI DevCloud as the environment for jupyter notebook samples. \
+Users can refer to [DevCloud Getting Started](https://devcloud.intel.com/oneapi/get-started/) for using DevCloud \
+Users can use JupyterLab from DevCloud via "One-click Login in", and download samples via "git clone" or the "oneapi-cli" tool \
+Once users are in the JupyterLab with downloaded jupyter notebook samples, they can start following the steps without further installation needed.
+
+![graph](https://github.com/shriramkv/MLwithoneAPI_IDC/assets/72274851/353b9d93-2f18-41b9-856b-23d34b1ed3b0)
+
+#### :pencil: Projects of oneDAL
+
+| Algorithm               | Notebook       |
+| :----------------------:| :------------: | 
+|    Sign-Language  |  [View source on GitHub](https://github.com/JoelJJoseph/Sign-Language_oneApi)    | 
+|    Breastcancer         |   [View source on GitHub](https://github.com/AkshayRamakrishnann/Breastcancer_oneDNN_Conv1D) | 
+
+
+</details>
 ## 3. XGBoost with oneAPI  <img src="https://github.com/shriramkv/MLwithoneAPI_IDC/assets/72274851/3c93722d-d90f-43f2-a03a-a04226e45e36" height="60" width="60"><br>
 
+The XGB.ipynb code file demonstrates how to integrate the XGBoost library with oneAPI, leveraging the power of oneAPI's hardware acceleration. XGBoost is a popular machine-learning library for gradient boosting on decision trees, and when combined with oneAPI's optimizations, it becomes even more efficient and powerful.
 
-The XGB.ipynb code file demonstrates how to integrate the XGBoost library with oneAPI, leveraging the power of oneAPI's hardware acceleration. XGBoost is a popular machine learning library for gradient boosting on decision trees, and when combined with oneAPI's optimizations, it becomes even more efficient and powerful.
+<details>
+  <summary><h2>More about it</h2><img src="https://github.com/shriramkv/MLwithoneAPI_IDC/assets/72274851/6120f1fb-dfec-473a-a067-23d2481066c2" height="60" width="60"></summary>
 
+</details>
 # Getting Started
 
 ## To access and utilize the code examples provided in this repository, follow these steps:
