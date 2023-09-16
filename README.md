@@ -133,11 +133,11 @@ The XGB.ipynb code file demonstrates how to integrate the XGBoost library with o
 
 ⭐ Clone the repository to your local machine using the following command:
 
-⭐ git clone https://github.com/your-username/your-repo-name.git
+⭐ `git clone https://github.com/shriramkv/MLwithoneAPI_IDC.git`
 
-Explore the individual code files (oneDAL.ipynb, oneDNN.ipynb, and XGB.ipynb) to understand how each library is used and optimized.
+⭐ Explore the individual code files (oneDAL.ipynb, oneDNN.ipynb, and XGB.ipynb) to understand how each library is used and optimized.
 
-Refer to the attached documents for detailed documentation on each library and instructions for creating an Intel Developer cloud (IDC) account to access additional resources.
+⭐ Refer to the attached documents for detailed documentation on each library and instructions for creating an Intel Developer Cloud (IDC) account to access additional resources.
 
 ## Contributions
 We welcome contributions to this repository! If you've developed additional optimized code examples using Intel oneAPI libraries or want to improve existing code, feel free to submit pull requests.
